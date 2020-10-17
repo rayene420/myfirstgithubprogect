@@ -1,0 +1,260 @@
+#header-container
+{
+	font-size: 17px;
+	padding: 8px;
+	padding-left: 15px;
+}
+
+#nav-header, #worktimes
+{
+	padding-left: 20px;
+}
+
+#toprent-header
+{
+	font-size: 24px;
+	font-family: 'Pacifico', cursive;
+}
+
+#slideshow img
+{
+	height: 250px;
+}
+
+#slideshow h3
+{
+	padding-bottom: 6px;
+}
+
+#goto-rent
+{
+	background-color: transparent;
+	border-radius: 0;
+	border: 2px solid white;
+	margin-bottom: 30px;
+	width: 25%;
+}
+
+#goto-rent:hover
+{
+	box-shadow: 0px 0px 3px 3px gray;
+}
+
+.carousel-inner
+{
+	margin-top: -50px;
+}
+
+.jumbotron
+{
+	margin-bottom: 0px;
+}
+
+#contact-form
+{
+	padding: 30px;
+	width: 90%;
+}
+
+#header-container
+{
+	padding-right: 20px !important;
+}
+
+#worktimes
+{
+	margin-left: 10px;
+	padding-top: 15px;
+}
+
+#submit-contact
+{
+	width: 100px;
+}
+
+#alert-sent
+{
+	max-width: 84%;
+	margin-left: 30px;
+	padding-bottom: 0px;
+}
+
+#rent-form
+{
+	padding: 30px;
+}
+
+#filter
+{
+	margin-top: 30px;
+	width: 90%;
+}
+
+#search
+{
+	width: 120px;
+	margin-top: 20px;
+}
+
+#car-brand
+{
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.filter-part
+{
+	margin-top: 5px;
+}
+
+.h3-pad
+{
+	padding-left: 30px;
+}
+
+input
+{
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 120px;
+	text-align: center;
+}
+
+#contact-form
+{
+	width: 90%;
+}
+
+#all-cards
+{
+	padding: 30px;
+}
+
+#btn-rent
+{
+	background-color: #00cc44;
+	border: none;
+	padding: 7px;
+	width: 50%;
+	border-radius: 5px;
+	transition-duration: 0.3s;
+}
+
+#btn-rent:hover
+{
+	box-shadow: 0px 0px 0px 2px #00cc44;
+}
+
+.card img
+{
+	height: 180px;
+}
+
+.card
+{
+	margin: 20px auto;
+	border: 3px solid gray;
+	background-color: rgb(210, 210, 210);
+}
+
+@media (min-width: 576px)
+{
+	#slideshow img
+	{
+		height: 350px;
+	}
+
+	.form-control
+	{
+		width: 100%;
+	}
+
+	#submit-contact
+	{
+		width: 40%;
+	}
+
+	#alert-sent
+	{
+		width: 398px;
+	}
+
+	.filter-part
+	{
+		display: flex;
+	}
+
+	.filter-inputs
+	{
+		margin-left: 10px;
+	}
+}
+
+@media (min-width: 650px)
+{
+	#slideshow img
+	{
+		height: 400px;
+	}
+
+	.form-control
+	{
+		width: 80%;
+	}
+
+	#submit-contact
+	{
+		width: 20%;
+	}
+
+	.card
+	{
+		width: 15rem !important;
+	}
+}
+
+@media (min-width: 992px)
+{
+	#slideshow img
+	{
+		height: 600px;
+	}
+
+	.form-control
+	{
+		width: 65%;
+	}
+
+	#submit-contact
+	{
+		width: 12%;
+	}
+
+	.card
+	{
+		width: 18rem !important;
+	}
+}
+
+@media (min-width: 1200px)
+{
+	#slideshow img
+	{
+		height: 700px;
+	}
+
+	.form-control
+	{
+		width: 50%;
+	}
+
+	#submit-contact
+	{
+		width: 8%;
+	}
+
+	input
+	{
+		width: 140px;
+	}
+}
